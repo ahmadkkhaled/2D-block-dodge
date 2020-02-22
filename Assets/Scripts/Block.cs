@@ -32,7 +32,7 @@ public class Block : MonoBehaviour
         * }
         * 
         */
-        if(Time.time >= timeToSpawn)
+        if(Time.timeSinceLevelLoad >= timeToSpawn)
         {
             SpawnBlocks();
             timeToSpawn += spawnWindow;
