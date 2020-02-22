@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
 
         Time.timeScale = 1f;
         Time.fixedDeltaTime *= slowFactor;
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
