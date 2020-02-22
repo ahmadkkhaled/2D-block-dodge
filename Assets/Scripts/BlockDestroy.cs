@@ -6,7 +6,7 @@ public class BlockDestroy : MonoBehaviour
    
     void Update()
     {
-        if(transform.position.y < -2f)
+        if(transform.position.y < -5f)
         {
             Destroy(gameObject);
         }
