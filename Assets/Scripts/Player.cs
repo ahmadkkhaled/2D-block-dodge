@@ -2,7 +2,7 @@
 
 public class Player : MonoBehaviour
 {
-    public float speed = 15f;
+    public float speed = 30f;
     public float mapWidth = 9f;
     private Rigidbody2D rb;
 
