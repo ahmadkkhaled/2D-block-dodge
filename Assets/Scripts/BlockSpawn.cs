@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Block : MonoBehaviour
+public class BlockSpawn : MonoBehaviour
 {
 
     public Transform[] spawnPoints;
